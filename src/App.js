@@ -5,6 +5,7 @@ import PackageSelectionPage from './pages/PackageSelectionPage';
 import PaymentPage from './pages/PaymentPage';
 import './App.css';
 import Banner from './component/Banner';
+import Confirmation from './pages/Confirmation';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         />
         <Route path='/create-account' exact component={CreateAccountPage} />
         <Route path='/payment' exact component={PaymentPage} />
+        <Route path='/confirmation' exact component={Confirmation} />
       </div>
     </>
   );
